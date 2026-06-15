@@ -1,17 +1,17 @@
 
-import JS from "../../assets/Img/Js.png";
-import TS from "../../assets/Img/Ts.png";
+import Js from "../../assets/Img/Js.png";
+import Ts from "../../assets/Img/Ts.png";
 import Html from "../../assets/Img/Html.png";
-import CSS from "../../assets/Img/css.png";
+import Css from "../../assets/Img/css.png";
 import Tailwindcss from "../../assets/Img/Tailwindcss.png";
 import Next from "../../assets/Img/NextJs.png";
 import Boostrap from "../../assets/Img/Boostrap.png";
 import ReactJs from "../../assets/Img/ReactJs.png";
 import Superbase from "../../assets/Img/Supabase2.png";
-import  PS from "../../assets/Img/PSS.png";
+import  Ps from "../../assets/Img/PSS.png";
 import Excel from "../../assets/Img/Excell.png";
 import Word from "../../assets/Img/Word.png";
-import PP from "../../assets/Img/Power Point.png";
+import Pp from "../../assets/Img/Power Point.png";
 import corel from "../../assets/Img/corel.png";
 
 
@@ -27,7 +27,7 @@ const DataTechStack = [
   },
   {
     name: "CSS",
-    img : CSS ,
+    img : Css ,
     color: "text-blue-500",
   },
  
@@ -44,7 +44,7 @@ const DataTechStack = [
   },
    {
     name: "Java Script",
-    img: JS,
+    img: Js,
     color: "text-sky-400",
   },
  
@@ -52,7 +52,7 @@ const DataTechStack = [
  
   {
     name: "Type Script",
-    img: TS,
+    img: Ts,
     color: "text-sky-500",
   },
    {
@@ -73,7 +73,7 @@ const DataTechStack = [
   },
   {
     name: "Adobe Photoshop",
-    img: PS,
+    img: Ps,
     color: "text-white",
   },
   {
@@ -93,14 +93,9 @@ const DataTechStack = [
   },
   {
     name: "MS Power Point",
-    img: PP,
+    img: Pp,
     color: "text-white",
   },
- 
- 
- 
- 
- 
  
 ];
 
