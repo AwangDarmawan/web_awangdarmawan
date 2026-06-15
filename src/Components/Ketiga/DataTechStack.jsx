@@ -11,7 +11,7 @@ import Superbase from "../../assets/Img/Supabase2.png";
 import  Ps from "../../assets/Img/PSS.png";
 import Excel from "../../assets/Img/Excell.png";
 import Word from "../../assets/Img/Word.png";
-import Pp from "../../assets/Img/Power Point.png";
+import Pp from "../../assets/Img/Power-Point.png";
 import corel from "../../assets/Img/corel.png";
 
 
