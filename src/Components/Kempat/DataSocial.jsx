@@ -9,7 +9,7 @@ import {
 const DataSocial = [
    {
     name: "Email",
-    username: "adarmawan568@gmail.com",
+    username: "adarmawan468@gmail.com",
     link: "mailto:adarmawan468@gmail.com",
     icon: <FaEnvelope size={20} />,
   },
@@ -33,7 +33,7 @@ const DataSocial = [
   },
   {
     name: "Whatsapp",
-    username: "+628312530735",
+    username: "+6283125307355",
     link: "https://wa.me/6283125307355",
     icon: <FaWhatsapp size={20} />,
   },
