@@ -1,6 +1,6 @@
 
 import Js from "../../assets/Img/Js.png";
-import Ts from "../../assets/Img/Ts.png";
+import Ts from "../../assets/Img/TypeS.png";
 import Html from "../../assets/Img/Html.png";
 import Css from "../../assets/Img/css.png";
 import Tailwindcss from "../../assets/Img/Tailwindcss.png";
