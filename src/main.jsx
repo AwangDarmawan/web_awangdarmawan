@@ -9,6 +9,7 @@ import "@fontsource/bebas-neue";
 import "@fontsource/montserrat";
 import "@fontsource/poppins";
 
+
 AOS.init({
   duration: 1000,
   easing: "ease-out-cubic",

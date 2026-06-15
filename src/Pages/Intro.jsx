@@ -152,7 +152,7 @@ function Intro() {
               1500,
              
             ]}
-            speed={50}
+            speed={200}
             repeat={Infinity}
             className="
               bg-gradient-to-r

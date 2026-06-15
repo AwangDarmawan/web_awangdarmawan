@@ -222,20 +222,20 @@ export default function AboutMe({ setActiveTab }) {
             >
               <button 
                 onClick={() =>
-    window.open(
-      "https://drive.google.com/file/d/1V4itgS49PqK4PKhDeD2MnwMZN2-3rJih/view?usp=sharing",
-      "_blank"
-    )
-  }
+                 window.open(
+                 "https://drive.google.com/file/d/1V4itgS49PqK4PKhDeD2MnwMZN2-3rJih/view?usp=sharing",
+                  "_blank"
+                )
+              }
                 className="
                   w-full
-  sm:w-auto
-  px-6
-  py-3
-  rounded-xl
-font-space
-  bg-gradient-to-r
-  from-[#6366f1]
+               sm:w-auto
+                 px-6
+                py-3
+             rounded-xl
+              font-space
+               bg-gradient-to-r
+             from-[#6366f1]
   via-[#6226d3]
   to-[#b806ff]
 

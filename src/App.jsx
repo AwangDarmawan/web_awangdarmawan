@@ -3,6 +3,8 @@ import { ToastContainer } from "react-toastify";
 import Home from "./Pages/Home";
 import { useEffect, useState } from "react";
 import Intro from "./Pages/Intro";
+import "react-toastify/dist/ReactToastify.css";
+import Delete from "./Components/Kempat/Delete";
 
 
 
@@ -27,6 +29,7 @@ function App() {
        <BrowserRouter>
           <Routes>
            <Route path="/" element={<Home />} />
+            <Route path="/delete" element={<Delete />} />
           </Routes>
       <ToastContainer
         position="top-right"

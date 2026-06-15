@@ -13,34 +13,22 @@ export default function ShowcaseNavbar({
     {
       id: "projects",
       label: "Projects",
-      icon: <Code2 size={18} />,
+      icon: <Code2 size={24} />,
     },
     {
       id: "certificates",
       label: "Certificates",
-      icon: <Award size={18} />,
+      icon: <Award size={24} />,
     },
     {
       id: "techstack",
       label: "Expertise",
-      icon: <Boxes size={18} />,
+      icon: <Boxes size={24} />,
     },
   ];
 
   return (
-    // <div
-    //   className="
-    //   flex
-    //   overflow-x-auto
-    //   gap-3
-    //   p-2
-    //   rounded-3xl
-    //   border
-    //   border-white/10
-    //   bg-white/5
-    //   backdrop-blur
-    //   "
-    // >
+   
     <div
   className="
   grid
@@ -53,6 +41,7 @@ export default function ShowcaseNavbar({
   bg-white/5
   backdrop-blur
   font-space
+  
   "
 >
       {tabs.map((tab) => (
@@ -60,9 +49,10 @@ export default function ShowcaseNavbar({
           key={tab.id}
           onClick={() => setActiveTab(tab.id)}
           className={`
-           py-3
-      sm:py-4
-      md:py-5
+          py-4
+sm:py-4
+md:py-5
+px-2
 
       rounded-xl
       sm:rounded-2xl
@@ -93,22 +83,33 @@ export default function ShowcaseNavbar({
         flex-col
         items-center
         justify-center
-
-        gap-1
-        sm:gap-2
+    
+    min-h-[60px]
+    sm:min-h-[70px]
             "
           >
-            <div className="scale-75 sm:scale-100">
+            {/* <div className="scale-75 sm:scale-100"> */}
+            <div 
+            className="
+             text-[20px]
+      sm:text-[22px]
+      md:text-[24px]
+      flex
+      items-center
+      justify-center">
           {tab.icon}
         </div>
             <span
           className="
-          text-[10px]
-          xs:text-[11px]
-          sm:text-sm
-          md:text-base
-          font-medium
-          leading-none
+              text-xs
+      sm:text-sm
+      md:text-base
+      font-bold
+      leading-none
+      text-center
+      break-words
+      pt-2
+          
           "
         >
           {tab.label}
