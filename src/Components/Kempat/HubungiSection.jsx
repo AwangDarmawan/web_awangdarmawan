@@ -182,8 +182,8 @@ export default function HubungiSection() {
       src={Poto}
       alt="Admin"
       className="
-        w-12
-        h-12
+        w-10
+        h-10
         rounded-full
         object-cover
         border

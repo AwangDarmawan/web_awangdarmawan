@@ -14,36 +14,39 @@ const FormHub = ({ setDatas}) => {
   const [deskripsi, setDeskripsi] = useState("");
   const [image, setImage] = useState(null);
   const [loading, setLoading] = useState(false);
-    const handleSubmit = async (e) => {
-    e.preventDefault();
 
-    try {
-   setLoading(true);
+const handleSubmit = async (e) => {
+  e.preventDefault();
 
+  // VALIDASI WAJIB
+  if (!nama.trim() || !deskripsi.trim()) {
+    toast.error("Nama dan deskripsi wajib diisi ✍️");
+    return;
+  }
 
-      const newData = await CreateKomentar({
-        nama,
-        deskripsi,
-        image,
-      });
+  try {
+    setLoading(true);
 
-      setDatas((prev) => [newData, ...prev]);
+    const newData = await CreateKomentar({
+      nama,
+      deskripsi,
+      image,
+    });
 
-      setNama("");
-      setDeskripsi("");
-      setImage("");
+    setDatas((prev) => [newData, ...prev]);
 
-     toast.success("Komentar berhasil ditambahkan 🚀");
-    } catch (error) {
-      console.error(error);
-     toast.error(
-  "Mohon maaf, foto yang Anda upload melebihi 5 MB 📸"
-);
-      
-    }   finally {
+    setNama("");
+    setDeskripsi("");
+    setImage(null); // lebih tepat null daripada ""
+
+    toast.success("Komentar berhasil ditambahkan 🚀");
+  } catch (error) {
+    console.error(error);
+    toast.error("Mohon maaf, terjadi kesalahan 📸");
+  } finally {
     setLoading(false);
   }
-  };
+};
   return (
     <>
         <form   onSubmit={handleSubmit}
