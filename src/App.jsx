@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import Intro from "./Pages/Intro";
 import "react-toastify/dist/ReactToastify.css";
 import Delete from "./Components/Kempat/Delete";
+import DetailProjek from "./Components/Ketiga/DetailProjek";
 
 
 
@@ -29,6 +30,7 @@ function App() {
        <BrowserRouter>
           <Routes>
            <Route path="/" element={<Home />} />
+              <Route path="/project/:title" element={<DetailProjek />} />
             <Route path="/delete" element={<Delete />} />
           </Routes>
       <ToastContainer

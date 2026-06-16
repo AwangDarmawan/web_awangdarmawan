@@ -3,13 +3,14 @@ import {
   ArrowRight
 } from "lucide-react";
 import DataProjek from "./DataProjek"
-// import { PhotoProvider, PhotoView } from "react-photo-view";
-// import "react-photo-view/dist/react-photo-view.css";
 
+import { useNavigate } from "react-router-dom";
 
 
 
 export default function ProjectCard() {
+    const navigate = useNavigate();
+  
   return (
   <div
     className="
@@ -38,11 +39,9 @@ data-aos-duration="800"
           bg-[#11162f]
           shadow-xl
           hover:-translate-y-2
-          hover:border-violet-500/30
+          hover:border-violet-700/30
           transition-all
           duration-300
-          
-
           before:absolute
           before:inset-0
           before:bg-[radial-gradient(circle_at_top_left,#6366f120,transparent_40%)]
@@ -117,11 +116,12 @@ data-aos-duration="800"
                 items-center
                 gap-2
                 text-violet-400
-                font-medium
+             
                 hover:text-violet-300
                 transition
-                font-monserrat
+                font-space
                 hover:scale-95
+                font-black
                 
               "
             >
@@ -130,20 +130,21 @@ data-aos-duration="800"
             </button>
 
             <button
+              onClick={() => navigate(`/project/${project.title}`)}
               className="
                 flex
                 items-center
                 gap-2
-                px-4
+                px-3
                 py-2
                 rounded-xl
                 bg-white/10
                 text-white
                 hover:bg-white/20
                 transition
-                font-montserrat
-                font-medium
-                   hover:scale-95
+                font-black
+                font-space
+                hover:scale-95
               "
             >
               Details
