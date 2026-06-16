@@ -158,7 +158,7 @@ border-violet-500/40
               Menciptakan Website Yang Inovatif,
               Fungsional, dan User-Friendly
               untuk Solusi Digital.
-              Di bawah ini adalah data dan pengalaman mengenai perjalanan saya dalam dunia pengembangan website, teknologi digital ,Administation dan Desain grafis .
+              Di bawah ini merupakan gambaran perjalanan saya dalam dunia pengembangan website, teknologi digital, administrasi, serta desain grafis yang terus berkembang seiring pengalaman dan pembelajaran yang saya jalani. .
             </p>
 
             {/* Skills */}
