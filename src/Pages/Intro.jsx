@@ -155,7 +155,7 @@ function Intro() {
             speed={200}
             repeat={Infinity}
             className="
-              bg-gradient-to-r
+              bg-gradient-to-b
               from-[#6366f1]
               via-[#6226d3]
               to-[#b806ff]

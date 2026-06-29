@@ -4,6 +4,8 @@ import LearnX from  "../../assets/Img/LearnX.png";
 import Chatting from "../../assets/Img/Chating.png";
 import AppKledo from "../../assets/Img/appkledo.png";
 import YouApp from "../../assets/Img/YouApp.png";
+import adaDigital from "../../assets/Img/4da.png";
+
 const DataProjek = [
   {
     title: "Sims PPOB",
@@ -130,6 +132,33 @@ techstack :[
     "Socket Io",
 
   ]
+  },
+   {
+    title: "4da Digital",
+    image: adaDigital,
+    desc: "A digital invitation website with free and premium templates, complete with discount features, photo galleries, additional sections, and data customization requests to suit customer needs.",
+     demo :"https://web-4dadigital.vercel.app/",
+     linkgithub:"https://github.com/AwangDarmawan/WebDigital",
+         keyfeature: [
+    "Responsive Design",
+    "User Friendly UI",
+    "Free & Premium Templates",
+    "Discount Feature",
+    "Custom Data Request",
+    "Photo Gallery",
+    "Additional Section Support",
+    "Easy Invitation Management"
+  ],
+       techstack :[
+    "React JS",
+    "Type Script",
+    "Tailwind css",
+    "Superbase"
+    
+  
+
+  ]
+       
   },
 ];
 export default DataProjek;
