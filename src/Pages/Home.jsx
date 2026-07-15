@@ -22,7 +22,7 @@ function Home() {
 
         <meta
           name="keywords"
-          content="Awang Darmawan,Website Bisnis,Website Undangan pernikahan,Desain Poster  "
+          content="Portofolio Awang Darmawan,Awang Darmawan,Website Bisnis,Website Undangan pernikahan,Desain Poster  "
         />
 
         <meta name="author" content="Awang Darmawan" />
