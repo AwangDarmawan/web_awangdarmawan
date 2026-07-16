@@ -17,7 +17,7 @@ function Home() {
 
        <meta
   name="description"
-  content="Jasa pembuatan website, undangan digital & fisik, dan desain grafis oleh Awang Darmawan. Solusi untuk bisnis pribadi maupun perusahaan dengan harga terjangkau. Lihat portfolio proyek terbaik kami."
+  content="Jasa pembuatan website. Solusi untuk bisnis pribadi maupun perusahaan dengan harga terjangkau. Lihat portfolio proyek terbaik kami."
 />
 
         <meta
