@@ -243,9 +243,34 @@ shadow-[0_0_20px_rgba(139,92,246,0.4)]
                 gap-2
                 "
               >
-                Projects
+                Projects Website
                 <ExternalLink size={18} />
               </button>
+
+              <button
+  onClick={() => {
+    window.open(
+      "https://drive.google.com/file/d/1W5i749t2bmkl3cTH5rS4KS9kCE1JuWjU/view?usp=sharing",
+      "_blank",
+      "noopener,noreferrer"
+    );
+  }}
+  className="
+    px-6 py-3
+    rounded-xl
+    bg-black
+    hover:scale-105
+    transition
+    shadow-[0_0_40px_rgba(139,92,246,0.3)]
+    flex
+    items-center
+    justify-center
+    gap-2
+  "
+>
+  Projects Desain
+  <ExternalLink size={18} />
+</button>
 
               <button
                 onClick={() => {
