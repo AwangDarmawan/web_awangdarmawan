@@ -12,7 +12,7 @@ export default function ShowcaseNavbar({
   const tabs = [
     {
       id: "projects",
-      label: "Projects",
+      label: "Projects Web",
       icon: <Code2 size={24} />,
     },
     {

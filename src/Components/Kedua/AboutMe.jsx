@@ -1,7 +1,7 @@
 
 
 import AboutImage from "../../assets/Img/Poto-TR.png";
-import { Download, Code2} from "lucide-react";
+import { Code2, EyeIcon} from "lucide-react";
 import CardProjek from "./CardProjek";
 import { TypeAnimation } from "react-type-animation";
 
@@ -223,7 +223,7 @@ export default function AboutMe({ setActiveTab }) {
               <button 
                 onClick={() =>
                  window.open(
-                 "https://drive.google.com/file/d/1V4itgS49PqK4PKhDeD2MnwMZN2-3rJih/view?usp=sharing",
+                 "https://drive.google.com/file/d/1MYR0saT-W2R24zfAGwG7lnTgduJgx2rk/view?usp=sharing",
                   "_blank"
                 )
               }
@@ -253,7 +253,7 @@ export default function AboutMe({ setActiveTab }) {
   duration-300
                 "
               >
-                <Download size={18} />
+                <EyeIcon size={18} />
                 Download CV
               </button>
 
