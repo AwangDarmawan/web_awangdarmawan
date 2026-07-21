@@ -254,7 +254,7 @@ export default function AboutMe({ setActiveTab }) {
                 "
               >
                 <EyeIcon size={18} />
-                Download CV
+                Lihat CV
               </button>
 
               <button 
