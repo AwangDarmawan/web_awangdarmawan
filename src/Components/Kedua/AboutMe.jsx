@@ -169,7 +169,7 @@ export default function AboutMe({ setActiveTab }) {
             >
               Saya Awang Darmawan, lulusan S1 Teknik Informatika (IPK 3.64) dengan minat pada teknologi,
               administrasi, pengembangan web, dan desain grafis. Memiliki pengalaman lebih dari 1 tahun   sebagai
-                Operator Admin dan pengalaman sebagai Frontend Developer melalui Magang – Binar Academy selama 5 bulan. Terbiasa bekerja rapi, cepat beradaptasi, dan mampu bekerja dalam tim maupun mandiri.
+                Operator Admin dan pengalaman sebagai Frontend Developer melalui Magang – Binar Academy selama 5 bulan .Selain itu saya juga pernah mengikuti -Workshop Pembuatan Game 3D menggunakan Godot Engine, Terbiasa bekerja rapi, cepat beradaptasi, dan mampu bekerja dalam tim maupun mandiri.
             </p>
 
             {/* QUOTE */}
@@ -223,7 +223,7 @@ export default function AboutMe({ setActiveTab }) {
               <button 
                 onClick={() =>
                  window.open(
-                 "https://drive.google.com/file/d/1MYR0saT-W2R24zfAGwG7lnTgduJgx2rk/view?usp=sharing",
+                 "https://drive.google.com/file/d/1aQkwo7dQWde-bIrVA_I-OcQtinESV0i7/view?usp=sharing",
                   "_blank"
                 )
               }
@@ -236,8 +236,8 @@ export default function AboutMe({ setActiveTab }) {
               font-space
                bg-gradient-to-r
              from-[#6366f1]
-  via-[#6226d3]
-  to-[#b806ff]
+      via-[#6226d3]
+    to-[#b806ff]
 
   text-white
 
