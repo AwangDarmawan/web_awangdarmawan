@@ -223,7 +223,7 @@ export default function AboutMe({ setActiveTab }) {
               <button 
                 onClick={() =>
                  window.open(
-                 "https://drive.google.com/file/d/1aQkwo7dQWde-bIrVA_I-OcQtinESV0i7/view?usp=sharing",
+                 "https://drive.google.com/file/d/19OF-rsAsqgEfurnA03SP3XLekg_F-P2r/view?usp=drive_link",
                   "_blank"
                 )
               }
